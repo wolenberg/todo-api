@@ -9,7 +9,7 @@ import com.sun.el.parser.ParseException;
 import com.wolenberg.todo.services.DBService;
 
 @Configuration
-@Profile("test")
+@Profile("azure")
 public class TestConfig {
 
 	@Autowired
